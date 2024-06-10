@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Сайт Фатумба</title>
+        <link rel="shortcut icon" href="./icon.ico" >
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery-3.6.4.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                <div class="header_wrapper">
+                    <div id="myLogo" class="header_logo">
+                        FATUMBA
+                    </div>
+                    <div class="header_menu">
+                        <a href="#intro" class="header_link" id="i">ГЛАВНАЯ</a>
+                        <a href="#about" class="header_link" id="a">О КОМПАНИИ</a>
+                        <a href="#gallery" class="header_link" id="g">ПРОЕКТЫ</a>
+                        <a href="#send" class="header_link" id="s">КОНТАКТЫ</a>
+                    </div>
+                </div>
+           </div>
+        </header>
+        <main>
+            <section class="intro" id="intro">
+                <div class="wrapper">
+                    <div class="intro_wrapper">
+                        <h1 class="intro_title">
+                            Добро пожаловать, друг!
+                        </h1>
+                        <p class="intro_text">
+                            «Фатумба» уже 2 года на рынке мобильных игр. Совместно с компанией <a href="https://code-class.ru/" class="codeclass" target="_blank">CodeClass</a>, мы разработали уже 4 игры: Pirate's Andventure, Find the Dragon's Egg, Find the Gong и Quiz. Суммарная аудитория наших игр превышает 1000 игроков!
+                        </p>
+                        <button id="myButton" class="intro_button">НАПИСАТЬ МНЕ</button>
+                        <div class="modal" id="myModal">
+                            <div class="modal_content" id="myContent">
+                                <div class="close" id="myClose">
+                                    &times;
+                                </div>
+                                <div class="send_wrapper">
+                                    <h1 class="modal_title">
+                                        НАПИШИ НАМ
+                                    </h1>
+                                    <form action="">
+                                        <div class="send_form">
+                                            <div>
+                                                <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                                                <input type="email" class="form2 formstyle" placeholder="Ваш e-mail">
+                                            </div>
+                                            <textarea cols="50" rows="15" class="form3 formstyle" placeholder="Сообщение"></textarea>
+                                            <button class="send_button">ОТПРАВИТЬ</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="wrapper2">
+                    <div class="about_wrapper2">
+                        <div class="about_block">
+                            <h2 class="about_title">
+                                О КОМПАНИИ
+                            </h2>
+                            <p class="about_text">
+                                «Фатумба» уже 2 года на рынке мобильных игр. Совместно с компанией <a href="https://code-class.ru/" class="codeclass" target="_blank">CodeClass</a>, мы разработали уже 4 игры: Pirate's Andventure, Find the Dragon's Egg, Find the Gong и Quiz. Суммарная аудитория наших игр превышает 1000 игроков! Команда Fatumba всегда ставит перед собой технологически сложные задачи, продумывает реализацию игры до мелочей и успешно укладывается в сроки. Мы используем новейшие инструменты для разработки игр и очень внимательно следим за последними тенденциями в гейм-деве.
+                            </p>
+                            <div class="Photo">
+                                <img src="steam.svg" alt="" class="Photo">
+                                <img src="apple.svg" alt="" class="Photo">
+                                <img src="android.svg" alt="" class="Photo">
+                                <img src="./playstation.svg" alt="" class="Photo">
+                                <img src="xbox.svg" alt="" class="Photo">
+                                <img src="nintendo-switch.svg" alt="" class="Photo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="gallery1">
+                    <div class="gallery_str">
+                        <a href="Photo1.png" class="lightzoom"><img src="Photo1.png" alt=" " class="gallery_img1"></a>
+                        <a href="Photo2.jpg" class="lightzoom"><img src="Photo2.jpg" alt="  " class="gallery_img1"></a>
+                        <a href="Photo5.jpg" class="lightzoom"><img src="Photo5.jpg" alt="   " class="gallery_img1"></a>
+                        <a href="Photo4.jpg" class="lightzoom"><img src="Photo4.jpg" alt="    " class="gallery_img1"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="skills">
+                <div class="wrapper">
+                    <div class="skills_wrapper">
+                        <div class="skills_left">
+                            <h3 class="skills_title">Нашы инструменты</h3>
+                            <h4 class="skill skill_1 " id="11">Unity</h4>
+                            <h4 class="skill skill_2" id="12">Untreal Engine + Blender</h4>               
+                            <h4 class="skill skill_3" id="13">Python</h4>
+                            <h4 class="skill skill_4" id="14">Java + Android</h4>
+                        </div>
+                        <div class="skills_right">
+                            <a href="./tools.png" class="lightzoom">
+                            <img src="tools.png" alt="000" class="skills_img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="progects">
+                <div class="wrapper">
+                    <div class="progects_wrapper">
+                        <div class="progects_text">
+                            <h1>Нашы проекты</h1>
+                            <p>Трейлер игры Find the dragon`s Egg</p>
+                        </div>
+                        <iframe width="740" height="480" src="https://www.youtube.com/embed/JuDq7u2S4eQ" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen class="video"></iframe>
+                        <div class="progects_text">
+                            <p>Трейлер игры Find the Gong!</p>
+                        </div>
+                        <iframe width="740" height="480" src="https://www.youtube.com/embed/fd1wuv3DIBg" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen class="video"></iframe>
+                    </div>
+                </div>
+            </section>
+            <section id="gallery">
+                <div class="gallery" >
+                    <div class="gallery_str">
+                        <a href="1.png" class="lightzoom"><img src="1.png" alt=" " class="gallery_img"></a>
+                        <a href="2.png" class="lightzoom"><img src="2.png" alt="  " class="gallery_img"></a>
+                        <a href="5.png" class="lightzoom"><img src="5.png" alt="   " class="gallery_img"></a>
+                        <a href="6.png" class="lightzoom"><img src="6.png" alt="    " class="gallery_img"></a>
+                    </div>
+                    <div class="gallery_str">
+                        <a href="4.png" class="lightzoom"><img src="4.png" alt="     " class="gallery_img"></a>
+                        <a href="7.png" class="lightzoom"><img src="7.png" alt="      " class="gallery_img"></a>
+                        <a href="3.png" class="lightzoom"><img src="3.png" alt="       " class="gallery_img"></a>
+                        <a href="8.png" class="lightzoom"><img src="8.png" alt="        " class="gallery_img"></a>
+                    </div>
+                </div>
+            </section>
+            <section class="send" id="send">
+                <div class="wrapper">
+                    <div class="send_wrapper">
+                        <h1 class="send_title">
+                            НАПИШИ НАМ
+                        </h1>
+                        <p class="send_text">
+                            Если ты хочешь поработать с нами или просто пообщаться, заполни форму.
+                        </p>
+                        <form action="">
+                            <div class="send_form">
+                                <div>
+                                    <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                                    <input type="email" class="form2 formstyle" placeholder="Ваш e-mail">
+                                </div>
+                                <textarea cols="50" rows="15" class="form3 formstyle" placeholder="Сообщение"></textarea>
+                                <button class="send_button">ОТПРАВИТЬ</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="wrapper">
+                    <div class="footer_wrapper">
+                        <div>
+                            <h3>Code Class</h3>
+                            <p class="c">(с) 2021. Все права защищены.</p>
+                        </div>
+                        <div class="right_footer">
+                            <a href="https://www.microsoft.com/ro-ro/"><img src="data:image/jpeg;base64,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" alt="" class="css"></a>
+                            <a href="https://discord.com/"><img src="https://th.bing.com/th/id/OIP.nXPI28CXQMtSPKOplLVYIAAAAA?pid=ImgDet&rs=1" alt="" class="css"></a>
+                            <a href="https://code-class.ru/"><img src="./nwgy3n0c.png" alt="" class="css"></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+        <link rel="stylesheet" href="./lightzoom/style.css">
+        <script src="./lightzoom/lightzoom.js"></script>
+
+        <script>jQuery('.lightzoom').lightzoom({speed:800, isOverlayClickClosing: true});</script>
+        <script src="./myScripts.js"></script>
+    </body>
+</html>
